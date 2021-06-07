@@ -1,0 +1,152 @@
+{
+  "id": "/subscriptions/93be59d5-8259-490d-910b-c1b40bab2144/resourceGroups/davidptestazure/providers/Microsoft.Resources/deployments/microsoftwindowsserver.windowsserver-20210607231928",
+  "name": "microsoftwindowsserver.windowsserver-20210607231928",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/93be59d5-8259-490d-910b-c1b40bab2144/resourcegroups/davidptestazure/providers/Microsoft.ClassicCompute/virtualMachines/WINTalDavid",
+    "marketplaceItemId": "Microsoft.WindowsServer2019DatacenterwithContainers"
+  },
+  "properties": {
+    "templateHash": "15893334143975593166",
+    "parameters": {
+      "domainName": {
+        "type": "String",
+        "value": "davidptest"
+      },
+      "resourceGroupName": {
+        "type": "String",
+        "value": "davidptestazure"
+      },
+      "location": {
+        "type": "String",
+        "value": "northeurope"
+      },
+      "virtualMachineName": {
+        "type": "String",
+        "value": "WINTalDavid"
+      },
+      "virtualMachineSize": {
+        "type": "String",
+        "value": "Standard_DS1_v2"
+      },
+      "adminUsername": {
+        "type": "String",
+        "value": "Davidtestazure"
+      },
+      "adminPassword": {
+        "type": "SecureString"
+      },
+      "storageAccountName": {
+        "type": "String",
+        "value": "davidptestazure8495"
+      },
+      "storageAccountType": {
+        "type": "String",
+        "value": "Standard_LRS"
+      },
+      "diagnosticsStorageAccountName": {
+        "type": "String",
+        "value": "davidptestazure8495"
+      },
+      "diagnosticsStorageAccountType": {
+        "type": "String",
+        "value": "Standard_LRS"
+      },
+      "diagnosticsStorageAccountId": {
+        "type": "String",
+        "value": "Microsoft.ClassicStorage/storageAccounts/davidptestazure8495"
+      },
+      "virtualNetworkName": {
+        "type": "String",
+        "value": "davidptestazure"
+      },
+      "addressPrefix": {
+        "type": "String",
+        "value": "10.0.0.0/16"
+      },
+      "subnetName": {
+        "type": "String",
+        "value": "default"
+      },
+      "subnetPrefix": {
+        "type": "String",
+        "value": "10.0.0.0/24"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Running",
+    "timestamp": "2021-06-07T20:29:05.251627Z",
+    "duration": "PT42.0335876S",
+    "correlationId": "68f52edc-ae86-4f6b-92cb-99ba0b638c7c",
+    "providers": [
+      {
+        "namespace": "Microsoft.ClassicCompute",
+        "resourceTypes": [
+          {
+            "resourceType": "virtualMachines",
+            "locations": [
+              "northeurope"
+            ]
+          },
+          {
+            "resourceType": "domainNames",
+            "locations": [
+              "northeurope"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.ClassicNetwork",
+        "resourceTypes": [
+          {
+            "resourceType": "virtualNetworks",
+            "locations": [
+              "northeurope"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.ClassicStorage",
+        "resourceTypes": [
+          {
+            "resourceType": "storageAccounts",
+            "locations": [
+              "northeurope"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/93be59d5-8259-490d-910b-c1b40bab2144/resourceGroups/davidptestazure/providers/Microsoft.ClassicCompute/domainNames/davidptest",
+            "resourceType": "Microsoft.ClassicCompute/domainNames",
+            "resourceName": "davidptest"
+          },
+          {
+            "id": "/subscriptions/93be59d5-8259-490d-910b-c1b40bab2144/resourceGroups/davidptestazure/providers/Microsoft.ClassicNetwork/virtualNetworks/davidptestazure",
+            "resourceType": "Microsoft.ClassicNetwork/virtualNetworks",
+            "resourceName": "davidptestazure"
+          },
+          {
+            "id": "/subscriptions/93be59d5-8259-490d-910b-c1b40bab2144/resourceGroups/davidptestazure/providers/Microsoft.ClassicStorage/storageAccounts/davidptestazure8495",
+            "resourceType": "Microsoft.ClassicStorage/storageAccounts",
+            "resourceName": "davidptestazure8495",
+            "apiVersion": "2015-06-01"
+          }
+        ],
+        "id": "/subscriptions/93be59d5-8259-490d-910b-c1b40bab2144/resourceGroups/davidptestazure/providers/Microsoft.ClassicCompute/virtualMachines/WINTalDavid",
+        "resourceType": "Microsoft.ClassicCompute/virtualMachines",
+        "resourceName": "WINTalDavid"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}

@@ -1,0 +1,99 @@
+[
+  {
+    "id": "/subscriptions/93be59d5-8259-490d-910b-c1b40bab2144/resourceGroups/davidptestazure/providers/Microsoft.Resources/deployments/microsoftwindowsserver.windowsserver-20210607231928/operations/B0C465CF54E95424",
+    "operationId": "B0C465CF54E95424",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Running",
+      "timestamp": "2021-06-07T20:30:08.0067285Z",
+      "duration": "PT45.5764866S",
+      "trackingId": "ea5f8485-a3bd-48dc-8204-fade7c2f73f9",
+      "serviceRequestId": "northcentralus:c10863ac-20d2-4c71-a33f-ee09c4e08da7",
+      "statusCode": 429,
+      "statusMessage": {
+        "status": "Failed",
+        "error": {
+          "code": "VirtualMachineOperationFailed",
+          "message": "Unable to create virtual machine 'WINTalDavid': 'Instead of creating virtual machines in our classic experience, you should now create VMs using Azure Resource Manager. Learn more at http://aka.ms/classicvmretirement.'."
+        }
+      },
+      "targetResource": {
+        "id": "/subscriptions/93be59d5-8259-490d-910b-c1b40bab2144/resourceGroups/davidptestazure/providers/Microsoft.ClassicCompute/virtualMachines/WINTalDavid",
+        "resourceType": "Microsoft.ClassicCompute/virtualMachines",
+        "resourceName": "WINTalDavid"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/93be59d5-8259-490d-910b-c1b40bab2144/resourceGroups/davidptestazure/providers/Microsoft.Resources/deployments/microsoftwindowsserver.windowsserver-20210607231928/operations/AB785C48CF6DC507",
+    "operationId": "AB785C48CF6DC507",
+    "properties": {
+      "provisioningOperation": "Read",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-06-07T20:29:22.323754Z",
+      "duration": "PT57.7178653S",
+      "trackingId": "d267ceb9-7bc2-438f-89fe-77947be3ca7b",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/93be59d5-8259-490d-910b-c1b40bab2144/resourceGroups/davidptestazure/providers/Microsoft.ClassicStorage/storageAccounts/davidptestazure8495",
+        "resourceType": "Microsoft.ClassicStorage/storageAccounts",
+        "resourceName": "davidptestazure8495",
+        "apiVersion": "2015-06-01"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/93be59d5-8259-490d-910b-c1b40bab2144/resourceGroups/davidptestazure/providers/Microsoft.Resources/deployments/microsoftwindowsserver.windowsserver-20210607231928/operations/D9FCA4E253A6B6D3",
+    "operationId": "D9FCA4E253A6B6D3",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-06-07T20:29:18.2683043Z",
+      "duration": "PT53.6624156S",
+      "trackingId": "a80d9135-3c30-46f4-99c4-84618eed4da4",
+      "serviceRequestId": "northcentralus:473d3a8e-18dc-4d27-a01f-6ad2703a8852",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/93be59d5-8259-490d-910b-c1b40bab2144/resourceGroups/davidptestazure/providers/Microsoft.ClassicNetwork/virtualNetworks/davidptestazure",
+        "resourceType": "Microsoft.ClassicNetwork/virtualNetworks",
+        "resourceName": "davidptestazure"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/93be59d5-8259-490d-910b-c1b40bab2144/resourceGroups/davidptestazure/providers/Microsoft.Resources/deployments/microsoftwindowsserver.windowsserver-20210607231928/operations/5CFEA7D1686F8E7A",
+    "operationId": "5CFEA7D1686F8E7A",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-06-07T20:29:21.6352122Z",
+      "duration": "PT57.0293235S",
+      "trackingId": "d93b8ff3-62b2-4321-8c81-81730c83ff84",
+      "serviceRequestId": "northcentralus:3d906939-ac3b-41e9-b60c-6dff0eb51c16",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/93be59d5-8259-490d-910b-c1b40bab2144/resourceGroups/davidptestazure/providers/Microsoft.ClassicStorage/storageAccounts/davidptestazure8495",
+        "resourceType": "Microsoft.ClassicStorage/storageAccounts",
+        "resourceName": "davidptestazure8495"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/93be59d5-8259-490d-910b-c1b40bab2144/resourceGroups/davidptestazure/providers/Microsoft.Resources/deployments/microsoftwindowsserver.windowsserver-20210607231928/operations/11AFE013D70B416C",
+    "operationId": "11AFE013D70B416C",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-06-07T20:28:27.6559101Z",
+      "duration": "PT3.0500214S",
+      "trackingId": "2c79b970-eaab-4eda-86db-52c177e3e512",
+      "serviceRequestId": "northcentralus:02303f35-8abe-40bb-9c19-2847b696e215",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/93be59d5-8259-490d-910b-c1b40bab2144/resourceGroups/davidptestazure/providers/Microsoft.ClassicCompute/domainNames/davidptest",
+        "resourceType": "Microsoft.ClassicCompute/domainNames",
+        "resourceName": "davidptest"
+      }
+    }
+  }
+]
